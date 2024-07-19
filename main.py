@@ -31,9 +31,7 @@ def get_parser():
 
     parser.add_argument("--s", type=float, default=0.12,
                                 help="The volatility per annum")
-
-    parser.add_argument("--p", type=float, default=100,
-                                help="The initial price of the option contract per share (assuming we are buying the option for 100 stocks)")
+    
 
     return parser
 
